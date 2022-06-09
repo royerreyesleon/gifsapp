@@ -1,1 +1,13 @@
-<p>resultados works!</p>
+<div class="row">
+  <div *ngFor="let item of resultados" class="col-md-3 col-sm-6">
+
+    <div class="card">
+      <img [src]="item.src.small" [alt]="item.photographer" class="card-img-top" />
+
+      <div class="card-body">
+        <p class="card-text">{{ item.photographer }}</p>
+      </div>
+    </div>
+
+  </div>
+</div>
