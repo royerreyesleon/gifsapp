@@ -1,3 +1,5 @@
+/* https://app.quicktype.io/ */
+
 export interface SearchGifsResponse {
     page:          number;
     per_page:      number;

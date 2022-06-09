@@ -7,7 +7,6 @@ import { Photo, SearchGifsResponse } from '../interface/gifs.interface';
 })
 export class GifsService {
   /* https://www.pexels.com/es-es/api/documentation/ */
-  /* https://app.quicktype.io/ */
   private apiKey: string =
     '563492ad6f91700001000001b1003998affb475ca89193cc5e39595b';
   private servicioUrl: string = 'https://api.pexels.com/v1/';
